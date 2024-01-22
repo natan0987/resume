@@ -27,6 +27,7 @@
 .modal-content {
   margin: 15% auto;
   padding: 20px;
+  background-color: #eee;
   border: 1px solid #575656;
   width: 300px;
   text-align: center;
