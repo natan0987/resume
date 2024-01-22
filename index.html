@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title"></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="dark-mode-toggle">
+      <p id="dark-mode">Dark Mode:</p>
+      <div class="toggle-container">
+        <input type="checkbox" id="themeToggle">
+        <label class="toggle-slider" for="themeToggle"></label>
+      </div>
+    </div>
+
+    <h4 id="select-language" class="language-label" onclick="openModal()">Choose Language / Theme</h4>
+  </header>
+
+  <div class="container">
+    <div class="one-third">
+      <section>
+        <img src="assets/me.jpg" width="100%">
+
+        <div class="container-one-third">
+          <img class="icon" src="assets/telegram.png" alt="telegram icon">
+          <a id="telegram" class="contact-info-link" href="https://t.me/NatanGol" target="_blank"><p>Telegram</p></a>
+        </div>
+
+        <div class="container-one-third">
+          <img class="icon" src="assets/github.png" alt="github icon">
+          <a id="github" class="contact-info-link" href="https://github.com/natan0987" target="_blank">GitHub</a>
+        </div>
+
+        <div class="container-one-third">
+          <img class="icon" src="assets/email.png" alt="email icon">
+          <a id="contact-me" class="contact-info-link" href="mailto:natan.golshevsky@gmail.com?Subject=Hey%20there" target="_top">Contact Me</a>
+        </div>
+
+        <div class="container-one-third">
+          <img class="icon" src="assets/home.png" alt="home icon">
+          <p id="adderss1">Brooklyn, New York</p>
+        </div>
+        
+        <div class="container-one-third">
+          <img class="icon" src="assets/home.png" alt="home icon">
+          <p id="adderss2">Jerusalem, Israel</p>
+        </div>
+        <hr>
+
+        <div class="container-one-third">
+          <img class="icon-large" src="assets/skills.png" alt="skills icon">
+          <h3 id="skills" class="header-third">Skills</h3>
+        </div>
+
+        <div class="container-one-third">
+          <img class="icon" src="assets/html.png" alt="html icon">
+          <p>HTML5/CSS3</p>
+        </div>
+
+        <div class="container-one-third">
+          <img class="icon" src="assets/python.png" alt="python icon">
+          <p>Python</p>
+        </div>
+
+        <div class="container-one-third">
+          <img class="icon" src="assets/js.png" alt="Javascript icon">
+          <p>Javascript (Beginner)</p>
+        </div>
+
+        <div class="container-one-third">
+          <img class="icon" src="assets/android.png" alt="android icon">
+          <p>Android</p>
+        </div>
+
+
+        <div class="container-one-third">
+          <img class="icon" src="assets/sql.png" alt="sql icon">
+          <p>SQL (Minimal)</p>
+        </div>
+
+
+        <div class="container-one-third">
+          <img class="icon" src="assets/phone-repair.png" alt="phone repair icon">
+          <p id="phone-repair">Phone Repair</p>
+        </div>
+        <hr>
+
+        <div class="container-one-third">
+          <img class="icon-large" src="assets/dev-tools.png" alt="Development tools icon">
+          <h3 id="dev-tools" class="header-third">Development Tools</h3>
+        </div>
+
+        <div class="container-one-third">
+          <img class="icon" src="assets/vscode.png" alt="vs code icon">
+          <p>VS code</p>
+        </div>
+
+        <div class="container-one-third">
+          <img class="icon" src="assets/git.png" alt="git icon">
+          <p>Git</p>
+        </div>
+
+        <div class="container-one-third">
+          <img class="icon" src="assets/pycharm.png" alt="pycharm icon">
+          <p>Pycharm</p>
+        </div>
+
+        <div class="container-one-third">
+          <img class="icon" src="assets/android-studio.png" alt="android studio icon">
+          <p>Android Studio</p>
+        </div>
+        <br>
+      </section>
+    </div>
+
+    <div class="two-thirds">
+      <section>
+        <div class="container-two-thirds">
+          <img class="icon-large" src="assets/man.png" alt="man icon">
+          <h2 id="about">About Me</h2>
+        </div>
+        <div class="container-two-thirds">
+          <h3 id="about-desc">Hi, my name is Natan Golshevsky. I am a self-starter, an independent learner, and my ideal job will expand my programming skills and challenge me.</h3>
+        </div>
+        <br>
+      </section>
+      
+      <section>
+        <div class="container-two-thirds">
+          <img class="icon-large" src="assets/suitcase.png" alt="work icon">
+          <h2 id="experience">Professional Experience</h2>
+        </div>
+
+        <hr>
+        <h4 id="technoel-title">IT and Programming ~ TECHNOEL, Jerusalem, Israel.</h4>
+        <div class="container-two-thirds">
+          <img class="icon" src="assets/calendar.png" alt="calendar icon">
+          <h5 id="technoel-dates">Dec 2022 - Sep 2023</h5>
+        </div>
+        <p id="technoel-desc">IT service, in-house programmer, solutions implementer.</p>
+        <hr>
+
+        <h4 id="munch-title">Front Desk ~ MUNCH, Brooklyn, NY.</h4>
+        <div class="container-two-thirds">
+          <img class="icon" src="assets/calendar.png" alt="calendar icon">
+          <h5 id="munch-dates">Jan 2022 - Apr 2022</h5>
+        </div>
+        <p id="munch-desc">Customer service, front of the house, telephone interface with customers, organization of the online delivery pipeline.</p>
+        <hr>
+
+        <h4 id="peleor-title">General Manager and Head Tech ~ PELEOR Cellular service provider and supplier, Jerusalem, Israel.</h4>
+        <div class="container-two-thirds">
+          <img class="icon" src="assets/calendar.png" alt="calendar icon">
+          <h5 id="peleor-dates">Jan 2020 - Jan 2022</h5>
+        </div>
+        <p id="peleor-desc">General manager, head tech troubleshooter, customer service, in-house programmer, service and repairs, marketing and sales.</p>
+        <hr>
+
+        <h4 id="yoni-title">General Manager ~ YONI MARKET, Jerusalem, Israel.</h4>
+        <div class="container-two-thirds">
+          <img class="icon" src="assets/calendar.png" alt="education icon">
+          <h5 id="yoni-dates">Jun 2016 - Jun 2019</h5>
+        </div>
+        <p id="yoni-desc">Customer service, inventory management, interface with suppliers, management of deliveries, staff training and supervision.</p>
+        <br>
+      </section>
+      
+      <section>
+        <div class="container-two-thirds">
+          <img class="icon-large" src="assets/graduation.png" alt="calendar icon">
+          <h2 id="education">Education</h2>
+        </div>
+
+        <hr>
+        <h4 id="marketing-title">Marketing</h4>
+        <h5><img class="icon" src="assets/calendar.png" alt="calendar icon">2020 - 2022</h5>
+        <p id="marketing-desc">Self-taught via utilization of online enrichment resources within Canva, Logomaker, Adobe and more.</p>
+        <br>
+        <hr>
+
+        <h4 id="android-title">Android Development</h4>
+        <h5><img class="icon" src="assets/calendar.png" alt="calendar icon">2020 - 2022</h5>
+        <p id="android-desc">Self-taught through independent research into Android specifics and potentials.</p><br>
+        <hr>
+
+        <h4 id="python-title">Python Development</h4>
+        <h5><img class="icon" src="assets/calendar.png" alt="calendar icon">2017 - 2022</h5>
+        <p id="python-desc1">Self-taught online</p>
+        <p id="python-desc2">- Buildup of portfolio of proprietary projects for Peleor Cellular.</p>
+        <p id="python-desc3">- Chatbot framework that contains a web chatbot(with no design), telegram chatbot, skeleton for an ivr bot for Technoel</p>
+        <p id="python-desc4">- Server that scrapes data about incoming calls and sends it to client apps</p>
+        <br>
+        <hr>
+
+        <h4 id="web-title">Web Development</h4>
+        <h5><img class="icon" src="assets/calendar.png" alt="calendar icon">2022 - 2022</h5>
+        <p id="web-desc"> -Builds of single-page commercial and informational sites.</p>
+        <br>
+        <hr>
+
+        <h4 id="c-title">.NET / C# Development</h4>
+        <h5><img class="icon" src="assets/calendar.png" alt="calendar icon">2022 - 2022</h5>
+        <p id="c-desc1">- Installer for management software on client pc</p>
+        <p id="c-desc2">- SMTP tester app with trace routing</p>
+        <p id="c-desc3">- Plugin for showing incoming data from the web scraper as a sticker on screen at all times</p>
+          <br>
+      </section>
+    </div>
+  </div>
+
+  <div id="languageModal" class="modal">
+    <div class="modal-content">
+      <h3>Please select a language</h3>
+      <h3>נא לבחור שפה</h3>
+      <div class="button" onclick="selectLanguage('en')">English <img class="language-img" src="assets/usa.svg"></div>
+      <div class="button" onclick="selectLanguage('he')">עברית <img class="language-img" src="assets/isr.svg"></div>
+    </div>
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
