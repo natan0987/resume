@@ -25,7 +25,7 @@ function openModal() {
           document.documentElement.lang = 'he';
           document.documentElement.setAttribute('dir', 'rtl');
           document.getElementById('page-title').textContent = 'קורות חיים - נתן גולשבסקי';
-          document.getElementById('select-language').textContent = 'בחירת שפה / ערכת נושא';
+          document.getElementById('select-language').textContent = 'בחירת שפה';
           document.getElementById('telegram').textContent = 'טלגרם';
           document.getElementById('github').textContent = 'גיטהאב';
           document.getElementById('contact-me').textContent = 'צור קשר במייל';
@@ -70,7 +70,7 @@ function openModal() {
           document.documentElement.lang = 'en';
           document.documentElement.setAttribute('dir', 'ltr');
           document.getElementById('page-title').textContent = 'Resume - Natan Golshevsky';
-          document.getElementById('select-language').textContent = 'Select Language / Theme';
+          document.getElementById('select-language').textContent = 'Select Language';
           document.getElementById('telegram').textContent = 'Telegram';
           document.getElementById('github').textContent = 'Github';
           document.getElementById('contact-me').textContent = 'Contact Me';
