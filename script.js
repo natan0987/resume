@@ -35,7 +35,7 @@ function openModal() {
           document.getElementById('phone-repair').textContent = 'תיקון פלאפונים';
           document.getElementById('dev-tools').textContent = 'הכלים שלי';
           document.getElementById('about').textContent = 'אודותיי';
-          document.getElementById('about-desc').textContent = 'היי, אני נתן גולשבסקי. מאד עצמאי, אוהב ללמוד דברים בכוחות עצמי, והעבודה האידיאלית שלי תאתגר אותי ותוסיף לידע שלי בתכנות.';
+          document.getElementById('about-desc').textContent = 'היי, אני נתן גולשבסקי. עצמאי, אוהב ללמוד דברים בכוחות עצמי, והעבודה האידיאלית שלי תאתגר אותי ותוסיף לידע שלי בתכנות.';
           document.getElementById('experience').textContent = 'ניסיון תעסוקתי';
           document.getElementById('technoel-title').textContent = 'איש IT ומתכנת ~ טכנואל, ירושלים, ישראל.';
           document.getElementById('technoel-dates').textContent = 'דצמבר 2022 - ספטמבר 2023';
